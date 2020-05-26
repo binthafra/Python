@@ -1,0 +1,6 @@
+username = input('What is your name?')
+password = input('What is your Password?')
+passwordlen = len(password)
+print(passwordlen)
+letter = ('*' * passwordlen)
+print(f'{username}, your password  {letter} is {passwordlen} letters long')
