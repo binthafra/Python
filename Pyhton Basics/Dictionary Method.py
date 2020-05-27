@@ -16,3 +16,12 @@ print(user.items())
 print(user.clear())
 user.clear()
 print(user)
+
+print(user.pop('age'))  # rmv actual value
+print(user)
+
+print(user.popitem())  # rmv last item
+print(user)
+
+print(user.update({'age': 55}))
+print(user)
